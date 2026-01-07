@@ -47,7 +47,7 @@ H = 0.5 * OD + 0.3 * PM + 0.2 * EC
 ### 1. Installation
 
 ```bash
-git clone https://github.com/yourusername/PERSONA_Framework.git
+git clone https://github.com/GiuseppeSPk/PERSONA_Framework.git
 cd PERSONA_Framework
 pip install -r requirements.txt
 ```
@@ -116,7 +116,7 @@ If you use PERSONA in your research, please cite:
   author = {Spicchiarello, Giuseppe},
   title = {PERSONA: Procedural Evaluation of Rhetoric vs Symbolic Ontology},
   year = {2026},
-  url = {https://github.com/yourusername/PERSONA_Framework}
+  url = {https://github.com/GiuseppeSPk/PERSONA_Framework}
 }
 ```
 
