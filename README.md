@@ -47,7 +47,7 @@ H = 0.5 * OD + 0.3 * PM + 0.2 * EC
 ### 1. Installation
 
 ```bash
-git clone https://github.com/yourusername/PERSONA_Framework.git
+git clone https://github.com/GiuseppeSPk/PERSONA_Framework.git
 cd PERSONA_Framework
 pip install -r requirements.txt
 ```
@@ -98,10 +98,7 @@ This framework builds upon and extends recent breakthroughs in AI Safety:
 PERSONA_Framework/
 ├── agents/             # System prompts (The "Interrogators")
 ├── data/               # Corpus of 48 moral dilemmas (Kohlberg, Triage, etc.)
-├── tools/              # Core pipeline logic
-│   ├── run_pipeline.py    # Multi-model orchestrator
-│   ├── analyze_results.py # H-Index calculator (Semantic + Heuristic)
-│   └── llm_interface.py   # Provider abstraction layer
+├── tools/              # Core pipeline logic (Orchestrators & Audit tools)
 └── experiment/         # (Generated) Raw audit logs and code artifacts
 ```
 
@@ -116,10 +113,14 @@ If you use PERSONA in your research, please cite:
   author = {Spicchiarello, Giuseppe},
   title = {PERSONA: Procedural Evaluation of Rhetoric vs Symbolic Ontology},
   year = {2026},
-  url = {https://github.com/yourusername/PERSONA_Framework}
+  url = {https://github.com/GiuseppeSPk/PERSONA_Framework}
 }
 ```
 
 ---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 *Verified on: Llama 3, GPT-4o, Claude 3.5 Sonnet*

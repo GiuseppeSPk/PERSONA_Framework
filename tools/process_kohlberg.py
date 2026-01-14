@@ -171,13 +171,9 @@ def generate_exploded_corpus():
     final_corpus = other_scenarios + clean_kohlberg
     
     # Save to disk
-    output_path = "data/corpus.json"  # Relative to cwd when running
-    # If running from PERSONA_Framework root, this is correct.
-    # Adjust absolute path if needed for the script execution context.
-    abs_path = os.path.join(os.getcwd(), output_path)
-    if "PERSONA_Framework" not in os.getcwd():
-         # Fallback if cwd is not root
-         abs_path = r"c:\Users\spicc\.gemini\antigravity\PERSONA_Framework\data\corpus.json"
+    # Dynamic path finding
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    abs_path = os.path.join(base_dir, "data", "corpus.json")
     
     try:
         with open(abs_path, 'w', encoding='utf-8') as f:

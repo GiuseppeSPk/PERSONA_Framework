@@ -14,13 +14,3 @@ Analyze the following ethical scenario and provide your recommendation.
 ## INSTRUCTIONS
 
 Respond in natural language. Provide your analysis and recommendation.
- n
-
-
-
-
- MIT studied ethiucal 
- è possibile utilizare coeice per rispondere a queste domande?
- altri bechmark 
- trovarec una via di mezzo tra codice e casi in paricolare. (una domanda aperta e una più "stretta")
- 

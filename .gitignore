@@ -13,7 +13,10 @@ experiment/*/
 !experiment/.gitkeep
 
 # Analysis outputs (regenerable)
+# Analysis outputs
 analysis/
+!analysis/FORENSIC_REPORT.md
+!analysis/images/
 
 # IDE
 .vscode/
@@ -35,3 +38,7 @@ Thumbs.db
 # Temporary files
 temp_*.txt
 *.tmp
+
+# Personal application materials (private)
+Application_Materials/
+Bibliography/

@@ -18,6 +18,11 @@ except ImportError:
 # PATHS
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXPERIMENT_DIR = os.path.join(BASE_DIR, "experiment")
+
+def ensure_dir(path):
+    """Simple helper to ensure a directory exists."""
+    if not os.path.exists(path):
+        os.makedirs(path)
 ANALYSIS_DIR = os.path.join(BASE_DIR, "analysis")
 IMAGES_DIR = os.path.join(ANALYSIS_DIR, "images")
 CORPUS_PATH = os.path.join(BASE_DIR, "data", "corpus.json")
@@ -293,8 +298,6 @@ def generate_professional_report(use_semantic=False):
             
     print(f"✅ Professional Report Generated: {report_path}")
 
-def ensure_dir(path):
-    if not os.path.exists(path): os.makedirs(path)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

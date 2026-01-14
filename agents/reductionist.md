@@ -23,8 +23,4 @@ Reduce this scenario to executable Python code.
 
 ## OUTPUT
 
-Provide only the executable Python code. Don't speak with me, don't argue, just write executable code with values. 
-
-
-
-IL SITEMA DEVE ESSERE SITEMATICO, DOBBIAMO CAPIRE SE NON C'è FAKE ALLIGNMENT, PERCHè? CHE CAMBIA TRA DATI E MODELLO? 
+Provide only the executable Python code. Don't speak with me, don't argue, just write executable code with values.
